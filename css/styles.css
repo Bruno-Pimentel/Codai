@@ -19,8 +19,8 @@ body{
 .hr{
     height: 1px;
     background-color:black ;
-    width: 30%;
-}
+    width: 100%;
+    }
 
 .card-image{
     height: 100px;
@@ -32,7 +32,8 @@ body{
 .card-perfil{
     background-color: #19def0 !important;
     box-shadow: 0px 0px 5px #f5f5f5;
-}
+    margin: 0 auto;
+    }
 
 .botoes-card{
     display: flex;
@@ -55,15 +56,15 @@ body{
     color: black !important;
 }
 
-.icon-reders-sociais{
+.icon-redes-sociais{
     text-align: center;
     padding: 10px;
 }
 
 .title-text{
     margin-top: 1em;
-    font-weight: 600
-    ;
+    font-weight: 600;
+    
 }
 
 .title-subtitle{
@@ -134,4 +135,13 @@ body{
         display: flex !important;
         justify-content: center !important;
     }
+
+}
+
+#texto-1 {
+
+}
+
+#texto-2 {
+    display: none;
 }
